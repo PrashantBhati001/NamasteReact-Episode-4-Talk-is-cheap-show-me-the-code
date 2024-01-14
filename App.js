@@ -318,6 +318,8 @@ const resList=[
 
 const RestaurantCard=(props)=>{
 
+    console.log(props)
+
     const {resData}=props
     const{name,cloudinaryImageId,costForTwo,cuisines,avgRatingString,sla}=resData?.info//optional chaining
     
